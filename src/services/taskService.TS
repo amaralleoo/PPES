@@ -1,7 +1,7 @@
 import { AppError } from "../middlewares/AppError";
 import * as taskRepository from
   "../repositories/taskrepository";
-import { CreateTaskDTO } from "../types/task";
+import { CreateTaskDTO, UpdateTaskDTO } from "../types/task";
 
 export function findAll() {
   return taskRepository.findAll();
